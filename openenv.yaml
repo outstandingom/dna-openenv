@@ -1,0 +1,4 @@
+name: knowledge_graph_env
+description: AI reasoning environment for customer support intent classification and query understanding. Dynamic tasks, multi-step episodes, fine-grained rewards using FAISS and reasoning engine.
+tasks:
+  - dynamic

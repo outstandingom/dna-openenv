@@ -1,0 +1,7 @@
+numpy
+faiss-cpu
+fastapi
+uvicorn
+httpx
+pydantic
+openai
