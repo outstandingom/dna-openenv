@@ -1,7 +1,8 @@
-numpy
-faiss-cpu
+openenv-core>=0.2.0
 fastapi
 uvicorn
-httpx
+numpy
+faiss-cpu
 pydantic
 openai
+httpx

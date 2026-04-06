@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "dna-openenv"
+version = "1.0.0"
+description = "AI reasoning environment for customer support"
+requires-python = ">=3.10"
+dependencies = [
+    "openenv-core>=0.2.0",
+    "fastapi>=0.100.0",
+    "uvicorn>=0.23.0",
+    "numpy>=1.24.0",
+    "faiss-cpu>=1.7.4",
+    "pydantic>=2.0.0",
+    "openai>=1.0.0",
+    "httpx>=0.24.0",
+]
+
+[project.scripts]
+run-env = "server.app:main"
+
+[tool.openenv]
+entrypoint = "server.app:app"
